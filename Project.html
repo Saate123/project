@@ -1,0 +1,214 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashionistar</title>
+    <link
+      rel="stylesheet"
+      href="assets/lib/bootstrap-icons-1.3.0/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/lib/fontawesome-free-6.6.0-web/css/all.css"
+    />
+    <style>
+      * {
+        padding: 0%;
+        margin: 0%;
+      }
+      .header {
+        width: 100%;
+        height: 12%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        background-color: white;
+      }
+      img{
+        width: 30px;
+        height: 50%;
+        margin-top: 10px;
+        margin-left: 10%;
+      }
+      .header .first {
+        margin-left: -12px;
+        padding-top: 33px;
+        padding-bottom: 5px;
+        color: #4c1a57;
+      }
+      .header .first h3 {
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 700;
+        font-size: 16.08px;
+        line-height: 20.59px;
+      }
+      .header .first h5 {
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 600;
+        font-size: 8px;
+        line-height: 10.24px;
+        display: flex;
+        justify-self: center;
+      }
+      .header .second {
+        margin-left: 50%;
+        display: flex;
+        align-items: center;
+      }
+      .header .second .nav-item {
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25.6px;
+        margin-left: 50px;
+        margin-top: 20px;
+      }
+      .header .second .nav-item a{
+        text-decoration: none;
+        color: #4c1a57;
+      }
+      .header .second .nav-item a:hover{
+        color: blue;
+      }
+      .body {
+        width: auto;
+        height: 88%;
+        background-image: url(assets/images/fashionistar.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+      .body .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(40, 37, 37);
+        opacity: 0.2;
+        position: absolute;
+        top: 0px;
+        z-index: 1;
+      }
+      .body .content {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .body .content .left {
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .body .content .left h1 {
+        color: white;
+        font-size: 80px;
+        font-weight: 800;
+        font-family: "Times New Roman", Times, serif;
+        line-height: 102.4px;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      .body .content .left h1 span{
+        margin-left: 25%;
+        margin-right: 25%;
+      }
+      .body .content .left .one {
+        color: white;
+        font-size: 32px;
+        font-weight: 400;
+        font-family: "Times New Roman", Times, serif;
+        line-height: 40.96px;
+        margin-left: 10%;
+      }
+      .body .content .left .one span{
+        margin-left: 25%;
+        margin-right: 55%;
+      }
+      .body .content .left .two {
+        color: white;
+        font-size: 32px;
+        font-weight: 400;
+        font-family: "Times New Roman", Times, serif;
+        line-height: 40.96px;
+      }
+      .body .content .btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      }
+      .body .content .btn #email{
+        position: relative;
+        height: 55px;
+        width: 266px;
+        padding-left: 20px;
+        background-color: rgb(40, 37, 37, 0.1);
+        border-top-left-radius: 25px;
+        left: 68%;
+        color: white;
+        border-color: white;
+        border-width: bold;
+        border-right: none;
+        z-index: 1;
+      }
+      .body .content .btn .click{
+        position: absolute;
+        height: 55px;
+        width: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+        left: 760px;
+        color: white;
+        background-color: #4c1a57;
+        border-top-color: white;
+        border-bottom-color: white;
+        border-right-color: white;
+        border-left: none;
+        z-index: 2;
+      }
+      .body .social{
+        margin-top: 90px;
+        display: flex;
+        margin-right: 30%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <section class="header">
+      <img src="assets/images/logo.jpg" alt="">
+      <div class="first">
+        <h3>FASHIONISTAR</h3>
+        <h5>Where style meets swiftness</h5>
+      </div>
+      <div class="second">
+        <div class="nav-item"><a href="About.html">About</a></div>
+        <div class="nav-item"><a href="">Contact</a></div>
+      </div>
+    </section>
+    <section class="body">
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="left">
+          <h1>Can You Guess What We're <span>Bringing On?</span></h1>
+          <p class="one">
+            Fashionistar is coming soon amd you can't afford to miss <span>out on our
+            launching!<span>
+          </p>
+          <p class="two">Kindly register and stay tuned</p>
+        </div>
+        <div class="btn">
+        <input type="text" id="email" placeholder="Email Address" />
+        <button class="click">Subscribe</button>
+       </div>
+       <div class="social">
+        <i class="fa-brands fa-tiktok"></i> 
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-linkedin"></i>
+      </div>
+    </section> 
+  </body>
+</html>
